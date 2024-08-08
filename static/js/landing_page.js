@@ -41,8 +41,8 @@ document.querySelector(".rev_code").addEventListener("click", (_) => {
 // Paper
 document.querySelector(".download_paper").addEventListener("click", (_) => {
 	let a = document.createElement("a");
-	a.href = "./pdf/Management Support to Hospital Administration.pdf";
+	a.href = "./static/pdf/Management Support to Hospital Administration.pdf";
 	a.download =
-		"Graduation Project - Management Support to Hospital Administration.pdf";
+		"Graduation Project - Paper - Management Support to Hospital Administration.pdf";
 	a.click();
 });
