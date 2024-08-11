@@ -3837,6 +3837,7 @@ section.demo_section {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
+  padding-top: 20px;
   /* width */
   /* Track */
   /* Handle */
@@ -4011,7 +4012,6 @@ section.demo_section .team_info ul li:hover span:nth-child(1) {
 section.demo_section .team_info ul li:hover span:nth-child(3) {
   transform: translateY(0px);
   opacity: 1;
-  letter-spacing: 0px;
 }
 section.demo_section .team_info ul li:hover span:nth-child(4) {
   transform: translateY(0px);
@@ -4061,9 +4061,14 @@ section.demo_section .team_info ul li span:nth-child(3) {
   transform: translateY(-20px);
   opacity: 0;
   transition-delay: 0.1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 section.demo_section .team_info ul li span:nth-child(3) i {
   font-size: 15px;
+  font-style: normal;
 }
 section.demo_section .team_info ul li span:nth-child(4) {
   transform: translateY(-20px);
