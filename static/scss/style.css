@@ -4273,6 +4273,7 @@ section.demo_section .team_info ul li:nth-child(3) {
   gap: 20px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
   font-weight: 400;
   color: #f2dabf;
 }
